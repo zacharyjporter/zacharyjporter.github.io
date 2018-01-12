@@ -1,0 +1,574 @@
+@font-face {
+    font-family: 'latoblack';
+    src: url('../fonts/lato-black-webfont.eot');
+    src: url('../fonts/lato-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-black-webfont.woff2') format('woff2'),
+         url('../fonts/lato-black-webfont.woff') format('woff'),
+         url('../fonts/lato-black-webfont.ttf') format('truetype'),
+         url('../fonts/lato-black-webfont.svg#latoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato-bold-webfont.eot');
+    src: url('../fonts/lato-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bold-webfont.woff') format('woff'),
+         url('../fonts/lato-bold-webfont.ttf') format('truetype'),
+         url('../fonts/lato-bold-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latohairline';
+    src: url('../fonts/lato-hairline-webfont.eot');
+    src: url('../fonts/lato-hairline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-hairline-webfont.woff2') format('woff2'),
+         url('../fonts/lato-hairline-webfont.woff') format('woff'),
+         url('../fonts/lato-hairline-webfont.ttf') format('truetype'),
+         url('../fonts/lato-hairline-webfont.svg#latohairline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latoheavy';
+    src: url('../fonts/lato-heavy-webfont.eot');
+    src: url('../fonts/lato-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-heavy-webfont.woff2') format('woff2'),
+         url('../fonts/lato-heavy-webfont.woff') format('woff'),
+         url('../fonts/lato-heavy-webfont.ttf') format('truetype'),
+         url('../fonts/lato-heavy-webfont.svg#latoheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latoitalic';
+    src: url('../fonts/lato-italic-webfont.eot');
+    src: url('../fonts/lato-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-italic-webfont.woff2') format('woff2'),
+         url('../fonts/lato-italic-webfont.woff') format('woff'),
+         url('../fonts/lato-italic-webfont.ttf') format('truetype'),
+         url('../fonts/lato-italic-webfont.svg#latoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latolight';
+    src: url('../fonts/lato-light-webfont.eot');
+    src: url('../fonts/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-light-webfont.woff2') format('woff2'),
+         url('../fonts/lato-light-webfont.woff') format('woff'),
+         url('../fonts/lato-light-webfont.ttf') format('truetype'),
+         url('../fonts/lato-light-webfont.svg#latolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latomedium';
+    src: url('../fonts/lato-medium-webfont.eot');
+    src: url('../fonts/lato-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-medium-webfont.woff2') format('woff2'),
+         url('../fonts/lato-medium-webfont.woff') format('woff'),
+         url('../fonts/lato-medium-webfont.ttf') format('truetype'),
+         url('../fonts/lato-medium-webfont.svg#latomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.eot');
+    src: url('../fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regular-webfont.woff') format('woff'),
+         url('../fonts/lato-regular-webfont.ttf') format('truetype'),
+         url('../fonts/lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latosemibold';
+    src: url('../fonts/lato-semibold-webfont.eot');
+    src: url('../fonts/lato-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-semibold-webfont.woff') format('woff'),
+         url('../fonts/lato-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/lato-semibold-webfont.svg#latosemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latothin';
+    src: url('../fonts/lato-thin-webfont.eot');
+    src: url('../fonts/lato-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-thin-webfont.woff2') format('woff2'),
+         url('../fonts/lato-thin-webfont.woff') format('woff'),
+         url('../fonts/lato-thin-webfont.ttf') format('truetype'),
+         url('../fonts/lato-thin-webfont.svg#latothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'cormorant_infantbold';
+    src: url('../fonts/cormorantinfant-bold-webfont.eot');
+    src: url('../fonts/cormorantinfant-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cormorantinfant-bold-webfont.woff2') format('woff2'),
+         url('../fonts/cormorantinfant-bold-webfont.woff') format('woff'),
+         url('../fonts/cormorantinfant-bold-webfont.ttf') format('truetype'),
+         url('../fonts/cormorantinfant-bold-webfont.svg#cormorant_infantbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cormorant_infantbold_italic';
+    src: url('../fonts/cormorantinfant-bolditalic-webfont.eot');
+    src: url('../fonts/cormorantinfant-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cormorantinfant-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/cormorantinfant-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/cormorantinfant-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/cormorantinfant-bolditalic-webfont.svg#cormorant_infantbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cormorant_infantbook';
+    src: url('../fonts/cormorantinfant-book-webfont.eot');
+    src: url('../fonts/cormorantinfant-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cormorantinfant-book-webfont.woff2') format('woff2'),
+         url('../fonts/cormorantinfant-book-webfont.woff') format('woff'),
+         url('../fonts/cormorantinfant-book-webfont.ttf') format('truetype'),
+         url('../fonts/cormorantinfant-book-webfont.svg#cormorant_infantbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cormorant_infantbook_italic';
+    src: url('../fonts/cormorantinfant-bookitalic-webfont.eot');
+    src: url('../fonts/cormorantinfant-bookitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cormorantinfant-bookitalic-webfont.woff2') format('woff2'),
+         url('../fonts/cormorantinfant-bookitalic-webfont.woff') format('woff'),
+         url('../fonts/cormorantinfant-bookitalic-webfont.ttf') format('truetype'),
+         url('../fonts/cormorantinfant-bookitalic-webfont.svg#cormorant_infantbook_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cormorant_infantitalic';
+    src: url('../fonts/cormorantinfant-italic-webfont.eot');
+    src: url('../fonts/cormorantinfant-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cormorantinfant-italic-webfont.woff2') format('woff2'),
+         url('../fonts/cormorantinfant-italic-webfont.woff') format('woff'),
+         url('../fonts/cormorantinfant-italic-webfont.ttf') format('truetype'),
+         url('../fonts/cormorantinfant-italic-webfont.svg#cormorant_infantitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cormorant_infantlight';
+    src: url('../fonts/cormorantinfant-light-webfont.eot');
+    src: url('../fonts/cormorantinfant-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cormorantinfant-light-webfont.woff2') format('woff2'),
+         url('../fonts/cormorantinfant-light-webfont.woff') format('woff'),
+         url('../fonts/cormorantinfant-light-webfont.ttf') format('truetype'),
+         url('../fonts/cormorantinfant-light-webfont.svg#cormorant_infantlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cormorant_infantlight_italic';
+    src: url('../fonts/cormorantinfant-lightitalic-webfont.eot');
+    src: url('../fonts/cormorantinfant-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cormorantinfant-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/cormorantinfant-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/cormorantinfant-lightitalic-webfont.ttf') format('truetype'),
+         url('../fonts/cormorantinfant-lightitalic-webfont.svg#cormorant_infantlight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cormorant_infantregular';
+    src: url('../fonts/cormorantinfant-regular-webfont.eot');
+    src: url('../fonts/cormorantinfant-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cormorantinfant-regular-webfont.woff2') format('woff2'),
+         url('../fonts/cormorantinfant-regular-webfont.woff') format('woff'),
+         url('../fonts/cormorantinfant-regular-webfont.ttf') format('truetype'),
+         url('../fonts/cormorantinfant-regular-webfont.svg#cormorant_infantregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cormorant_infantsemibold';
+    src: url('../fonts/cormorantinfant-semibold-webfont.eot');
+    src: url('../fonts/cormorantinfant-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cormorantinfant-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/cormorantinfant-semibold-webfont.woff') format('woff'),
+         url('../fonts/cormorantinfant-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/cormorantinfant-semibold-webfont.svg#cormorant_infantsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cormorant_infantSBdIt';
+    src: url('../fonts/cormorantinfant-semibolditalic-webfont.eot');
+    src: url('../fonts/cormorantinfant-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cormorantinfant-semibolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/cormorantinfant-semibolditalic-webfont.woff') format('woff'),
+         url('../fonts/cormorantinfant-semibolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/cormorantinfant-semibolditalic-webfont.svg#cormorant_infantSBdIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+
+
+
+
+
+
+
+a, a:visited, a:active{
+	text-decoration:none;
+	font-weight:300;
+    color:#3097AB;
+
+        -ms-transition:all 0.2s;
+    -webkit-transition:all 0.2s;
+    transition:all 0.2s;
+}
+
+a:hover{
+    color:#000;
+
+    -ms-transition:all 0.2s;
+    -webkit-transition:all 0.2s;
+    transition:all 0.2s;
+
+}
+
+
+body {
+	font-family: 'latolight', sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #666;
+}
+
+h2{
+    font-family: 'latolight', sans-serif;
+}
+
+
+h1{
+	font-family: 'latolight', sans-serif;
+	font-weight:300;
+	font-size: 26px;
+	color: #000;
+	padding:0;
+	margin:15px 0 0 15px;
+	letter-spacing:2px;
+	
+}
+
+h4{
+	font-family: 'Cormorant Infant', sans-serif;
+	font-style:italic;
+	font-weight:100;
+	font-size: 18px;
+	color: #000;
+	margin: 0 0 15px;
+}
+
+p{
+	font-family: 'latolight', sans-serif;
+	font-weight:normal;
+	font-size:20px;
+
+}
+
+
+
+
+
+/* SPECIFICS */
+
+
+.unslider h1{
+	font-family: 'latolight';
+	font-size: 38px;
+	line-height:40px;
+	color: #fff;
+	padding:0;
+	margin:15px 10px 0 15px;
+	letter-spacing:2px;
+	text-transform:uppercase;
+}
+
+.unslider h4{
+	font-family: 'cormorant_infantlight_italic', serif;
+	font-style:italic;
+	font-size: 20px;
+	color: #fff;
+	margin:5px 0 0 15px;
+	padding-bottom:10px;
+}
+
+.unslider p{
+	font-family: 'latolight', sans-serif;
+	font-weight:200;
+	font-size:20px;
+	margin:0;
+	line-height:39px;
+
+}
+
+#aboutus p{
+	font-family:'Garamond', serif;
+	font-size:16px;
+	line-height:18px;
+	font-weight:normal;
+	text-align:left;
+
+
+}
+
+
+
+.overlay h1{
+	font-family: 'latolight', sans-serif;
+	font-weight:200;
+	color:#fff;
+	line-height:22px;
+	margin:auto;
+	padding:0;
+	font-size:18px;
+	padding:10px;
+
+
+
+
+		-ms-transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+    transition:all 0.2s;
+}
+
+
+.title{
+	text-transform:uppercase;
+}
+
+
+
+
+
+.loc_header_title{
+	text-align:center;
+	
+    margin-left: auto;
+    margin-right: auto;
+	font-family: 'latoregular', sans-serif;
+	font-weight:500;
+	color:#000;
+	line-height:50px;
+	font-size:50px;
+	padding: 0 20px; 
+	max-width:1000px;
+	background-color:rgba(255, 255, 0, 0.85);
+    padding:10px;
+
+}
+
+
+.loc_sidebar h3{
+	font-family: 'latoregular', sans-serif;
+	font-weight:400;
+	font-size:16px;
+	padding: 0 20px;
+	text-transform:uppercase;
+
+
+}
+
+
+.loc_sidebar p{
+	font-family: 'latolight', sans-serif;
+	font-weight:300;
+	font-size:14px;
+	padding: 0 20px;
+	margin-top:-15px;
+	margin-bottom:20px;
+	line-height:22px;
+
+}
+
+
+.loc_sidebar p{
+	font-family: 'latolight', sans-serif;
+	font-weight:300;
+	font-size:14px;
+	padding: 0 20px;
+	margin-top:-15px;
+	margin-bottom:20px;
+	line-height:22px;
+
+}
+
+
+
+
+
+.loc_stuff h2{
+	font-family: 'latolight', sans-serif;
+	font-weight:300;
+	font-size:24px;
+	line-height:35px;
+    padding-top:10px;
+
+}
+
+#footer h1{
+	font-family: 'latolight', sans-serif;
+	font-weight:300;
+	font-size:16px;
+	color:#fff;
+	line-height:20px;
+	width:auto;
+
+}
+
+#footer h1:hover{
+	background-color:rgb(255,255,0);
+	color:#000;
+
+
+}
+
+.story h3{
+    font-size:25px;
+    line-height:29px;
+    font-weight:300;
+
+
+}
+
+.story h4{
+  font-family: 'cormorant_infantlight_italic', serif;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

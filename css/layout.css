@@ -1,0 +1,1253 @@
+
+/*HEADER*/
+
+body{
+
+}
+
+header{
+	position: fixed;
+	height:80px;
+	width:100%;
+	background-color:#fff;
+	display:block;
+    text-align:center;
+    top:0;
+    left:0;
+    z-index:100000;
+   
+
+}
+
+
+
+.logo{
+	position:absolute;
+	top:27px;
+	left:30px;
+	}
+
+
+#nav{
+	float:right;
+	margin-right:60px;
+}
+
+
+#nav, #myMenu{
+	display:inline-block;
+	height:80px;
+	width:400px;
+	
+
+}
+
+.map, .aboutus{
+	margin-left:20px;
+}
+
+
+#nav li, #myMenu li{
+	float:left;
+	padding:15px 0px 0 20px;
+	list-style-type: none;
+
+}
+
+                 
+#nav li a, #myMenu li a{ 
+	display:block;
+    text-align:center;
+	color:#555;
+	text-decoration:none;
+	letter-spacing:2px;
+
+
+}
+
+#nav li a:hover, #myMenu li a:hover{
+	color:#000;
+}
+
+
+#myMenu{
+	background-color:white;
+	width:100%;
+	float:right;
+	margin:0;
+	display:inline-block;
+
+}
+
+
+.menu_wrapper{
+	position:relative;
+}
+
+
+/*Tagline*/
+
+f
+
+.li1, .li2, .li3, .li4{
+	background-color:black;
+}
+
+.unslider{
+	background-color:black;
+
+}
+
+.slider_darker{
+	opacity:.75;
+
+}
+
+
+.li1, .li2, .li3, .li4{
+	position:relative;
+	height:100%;
+}
+
+li img{
+	height:100%;
+	object-fit: cover;
+}
+
+
+
+.slider_text{
+	position:absolute;
+	top:10%;
+}
+
+.slider_headline{
+	background-color:rgba(0,157,183,.75);
+	padding: 5px 5px 5px 5px;
+
+}
+
+
+
+#slider_button{
+	width:200px;
+	text-align:center;
+	margin:10px 0 0 15px;
+	border: 1px solid white;
+	background-color:transparent;
+
+}
+
+#slider_button:hover{
+	background-color:rgba(0, 0, 0,.4);
+	color:white;
+
+
+	-ms-transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+    transition:all 0.2s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MUSEUSMS*/
+
+
+
+
+#museums_header, #map_header, #aboutus_header {
+	height:80px;
+	width:auto;
+	background-color:#fff;
+
+}
+
+#museums{
+	height:auto;
+	background-color:#fff;
+	text-align:center;
+
+
+}
+
+
+.grid{  
+  margin: 0 auto;
+  padding-top:0px;
+
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+/* ---- button ---- */
+
+.button {
+	display: inline-block;
+	margin-bottom: 10px;
+	font-family: 'cormorant_infantlight_italic', serif;
+	font-size:20px;
+	cursor: pointer;
+	margin-right:20px;
+	color:#888;
+	margin-top:10px;
+	border: 1px solid #ccc;
+	padding:5px;
+	width:90px;
+	border-radius:5px;
+
+	
+    	-ms-transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+    transition:all 0.2s;
+}
+
+.button:hover {
+  color: #fff;
+  background-color:#777;
+
+
+    	-ms-transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+    transition:all 0.2s;
+  
+}
+
+.button:active,
+.button.is-checked {
+	color:#fff;
+	background-color:#000;
+ 
+}
+
+.button.is-checked {
+  	color:#fff;
+ 
+}
+
+.button:active {
+	background-color:#000;
+ 
+}
+
+/* ---- button-group ---- */
+
+
+
+/* ---- isotope ---- */
+
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.museums_box{
+	width:250px;
+	height:150px;
+	margin:1px 1px 1px 1px;
+	display:inline-block;
+	background-size: cover;
+	position: relative;
+	color:#fff;
+
+
+
+
+}
+
+
+
+.overlay, .overlay:visited {
+    background-color: rgba(46, 89, 97, 0.85);
+    width:100%;
+    height:100%;
+    vertical-align:middle;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    	-ms-transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+    transition:all 0.5s;
+}
+
+.overlay:hover{
+	 background-color:transparent;
+
+
+		-ms-transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+    transition:all 0.5s;
+
+}
+
+.overlay:hover h1{
+	color:transparent;
+
+	-ms-transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+    transition:all 0.2s;
+}
+
+
+
+
+
+
+.box_aamuseum{
+	background-image:url('../img/aamuseum.jpg');
+	
+}
+
+.box_africanart{
+	background-image:url('../img/aart.jpg');
+
+}
+
+.box_airandspace{
+	background-image:url('../img/airandspace.jpg');
+	
+}
+
+.box_udvarhazy{
+	background-image:url('../img/udvarhazy.jpg');
+
+}
+
+.box_americanart{
+	background-image:url('../img/americanart.jpg');
+	
+}
+
+.box_americanhistory{
+	background-image:url('../img/americanhistory.jpg');
+
+}
+
+.box_americanindian{
+	background-image:url('../img/americanindian.jpg');
+	
+}
+
+.box_sackler{
+	background-image:url('../img/sackler.jpg');
+
+}
+
+.box_freer{
+	background-image:url('../img/freer.jpg');
+	
+}
+
+.box_hirshhorn{
+	background-image:url('../img/hirshhornabove.jpg');
+
+}
+
+.box_naturalhistory{
+	background-image:url('../img/naturallhistory.jpg');
+
+}
+
+.box_zoo{
+	background-image:url('../img/zoo.jpg');
+
+}
+
+
+.box_renwick{
+	background-image:url('../img/renwick.jpg');
+
+}
+
+
+.box_institution{
+	background-image:url('../img/institution.jpg');
+
+}
+
+.box_artsandindustries{
+	background-image:url('../img/artsandindustries.jpg');
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*MAP*/
+
+
+#mappage{
+	background-color:#fff;
+	text-align:center;
+
+}
+
+
+
+iframe{
+	margin-top: 50px;
+	pointer-events: none;
+	width:80%;
+	height:500px;
+}
+
+
+
+
+  #map {
+  	margin-top:40px;
+  	width:100%;
+  	height:100%;
+  	position:relative;
+
+
+  }
+
+
+
+  
+  .maparea{
+    margin-top:40px;
+    margin:auto;
+    position:relative;
+    width:80%; 
+    height:500px;
+
+
+  }
+
+  .overlay1{
+  	background:transparent;
+  	width:100%;
+  	height:100%;
+  	position:absolute;
+  	top:0px;
+  }
+
+  #marker-list
+  {
+      position:absolute;
+      top:55px;
+      left:10px;
+      width:170px;
+      height:400px;
+      overflow:scroll;
+      background-color: rgba(46, 89, 97, .9);
+      margin:0;
+      padding:5px;
+      cursor: pointer;
+      display:none;
+ 
+  }
+
+  #marker-list li {
+      padding:5px;
+      margin:0;
+      color:#fff;
+      font-size:14px;
+      font-family: 'Neuzeit Grotesk', sans-serif;
+      border-bottom: 1px solid #bbb;
+      cursor: pointer;
+      line-height:16px;
+
+    
+
+      
+  }
+  #marker-list li:hover {
+      background-color:#fff;
+      color:#000;
+      cursor: pointer;
+      
+    
+
+  }
+
+
+
+
+#mapBtn{
+		position:absolute;
+      	top:10px;
+      	left:10px;
+		height:45px;
+		background-color: rgba(46, 89, 97,0.9);
+		 
+
+	}
+
+
+
+
+
+
+
+
+
+
+/*about us*/
+
+
+#aboutus{
+	text-align:center;
+	padding:0 20px;
+
+}
+
+#aboutus img{
+	height:400px;
+	padding-top:30px;
+	margin-top:20px;
+	float:left;
+	display:block;
+	margin-bottom:30px
+}
+
+.aboutus_p{
+	display:block;
+	padding:0 15px;
+	width:400px;
+	float:left;
+	margin-left:50px;
+	margin-top:10px;
+	padding-bottom:30px;
+
+
+}
+
+.aboutus_content{
+	height:500px;
+	display:inline-block;
+}
+
+
+
+#home{
+	top:0;
+	left:0;
+	height:1px;
+}
+
+
+#footer{
+	background-color:#05606f;
+	margin-top:100px;
+	padding:20px;
+	padding-bottom:40px;
+	overflow:hidden;
+		clear:both;
+
+}
+
+
+.footer_links{
+	width:300px;
+	display:inline-block;
+
+
+}
+
+.two{
+	display:inline-block;
+	width:300px;
+	vertical-align:top;
+	
+}
+
+.footer_all{
+	margin:auto;
+	width:610px;
+}
+/* AA Museum */
+/* AA Museum */
+/* AA Museum */
+
+
+
+.loc_header{
+	height:300px;
+	width:100%;
+	margin-top:80px;
+	text-align:center;
+	background-size: cover;
+	background-position:center;
+
+
+
+}
+
+
+
+
+
+.loc_overlayimg{
+	background-color: rgba(0, 0, 0, 0.35);
+    width:100%;
+    height:100%;
+    vertical-align:middle;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+	
+ 
+   
+}
+
+
+.loc_stuff{
+	padding-left:20px;
+	width:800px;
+	margin:auto;
+    padding-top:10px;
+
+
+ 
+
+}
+
+
+.loc_stuff h2{
+	margin:0;
+
+}
+
+
+
+
+.loc_sidebar{
+	float:right;
+	width:350px;
+	border-left: 1px solid #ccc;
+	padding-right:20px;
+	margin-left:30px;
+	position:relative;
+
+
+
+}
+
+
+.loc_text{
+	max-width:1000px;
+	margin:auto;
+	padding-top:30px;
+
+
+
+	
+}
+
+
+.loc_ex{
+	text-align:center;
+	clear:both;
+	margin:auto;
+	margin-bottom:30px;
+
+	
+
+}
+
+
+.loc_ex h1{
+	padding-top:50px;
+	width:100%;
+	margin-left:0;
+}
+
+
+.loc_mustitle{
+	text-align:center;
+	margin-top:50px;
+}
+
+
+
+
+.front_list{
+	margin:auto;
+	display:flex;
+  	justify-content:space-between;
+  	padding-left: 15px;
+	padding-right:15px;
+
+}
+
+.front_list .story {
+	width: 33%;
+	max-width: 300px;
+	float:left;
+	margin-bottom: 1.5em;
+}
+
+.front_list .story a {
+	height: 15em;
+}
+
+
+
+
+/* related story listing on inside pages */
+
+
+.story {
+	position:relative;
+}
+
+.story__bd {
+	padding: 1em 1em 0.25em 1em;
+}
+
+.story__ft {
+	padding: 0.25em 1em 0.5em 1em;
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+
+.story h3,
+.story h4,
+.story p {
+	margin: 0
+}
+
+
+
+
+.story .dateline {
+	font-size: 0.8em;
+}
+
+.story a {
+    display: block;
+    text-decoration: none;
+	color: #fff;
+	background: #eee;
+	background-size:cover;
+
+	 transition: transform .5s;
+}
+
+.story a:visited{
+    color:#fff;
+   
+
+}
+
+
+.story1 a{
+	background-image:url('../img/africanbooks.jpg');
+
+}
+
+.story2 a{
+	background-image:url('../img/africanemeka.jpg');
+
+}
+
+
+.story3 a{
+	background-image:url('../img/africanmosaic.jpg');
+
+}
+
+
+.airandspace_ex .story1 a{
+	background-image:url('../img/airandspace_tower.jpg');
+}
+
+.airandspace_ex .story2 a{
+	background-image:url('../img/airandspace_map.jpg');
+}
+
+.airandspace_ex .story3 a{
+	background-image:url('../img/airandspace_wright.jpg');
+}
+
+
+
+.udvar_ex .story1 a{
+	background-image:url('../img/udvar_spaceflight.jpg');
+}
+
+.udvar_ex .story2 a{
+	background-image:url('../img/udvar_coldwar.jpg');
+}
+
+.udvar_ex .story3 a{
+	background-image:url('../img/udvar_korea.jpg');
+}
+
+
+
+.amart_ex .story1 a{
+	background-image:url('../img/amart_nomountain.jpg');
+}
+
+.amart_ex .story2 a{
+	background-image:url('../img/amart_greekslave.jpg');
+}
+
+.amart_ex .story3 a{
+	background-image:url('../img/amart_experience.jpg');
+}
+
+
+
+.portait_ex .story1 a{
+	background-image:url('../img/portrait_prince.jpg');
+}
+
+.portait_ex .story2 a{
+	background-image:url('../img/portrait_covers.jpg');
+}
+
+.portait_ex .story3 a{
+	background-image:url('../img/portrait_outwin.jpg');
+}
+
+
+
+
+.amhist_ex .story1 a{
+	background-image:url('../img/amhist_bluenote.jpg');
+}
+
+.amhist_ex .story2 a{
+	background-image:url('../img/amhist_ray.jpg');
+}
+
+.amhist_ex  .story3 a{
+	background-image:url('../img/amhist_ruby.jpg');
+}
+
+
+
+
+.amindian_ex .story1 a{
+	background-image:url('../img/photo2.jpg');
+}
+
+.amindian_ex .story2 a{
+	background-image:url('../img/amindian_games.jpg');
+}
+
+.amindian_ex  .story3 a{
+	background-image:url('../img/amindian_nativeplace.jpg');
+}
+
+
+
+.sackler_ex .story1 a{
+	background-image:url('../img/sackler_paintingwithwords.jpg');
+}
+
+.sackler_ex .story2 a{
+	background-image:url('../img/sackler_heartofanempire.jpg');
+}
+
+.sackler_ex .story3 a{
+	background-image:url('../img/sackler_vietmam.jpg');
+}
+
+
+.hirch_ex .story1 a{
+	background-image:url('../img/hirsh_irwin.jpg');
+}
+
+.hirsh_ex .story2 a{
+	background-image:url('../img/hirsh_kruger.jpg');
+}
+
+.hirsh_ex .story3 a{
+	background-image:url('../img/hirsh_garden.jpg');
+}
+
+
+.nathist_ex .story1 a{
+	background-image:url('../img/nathist_onecubicfoot.jpg');
+}
+
+.nathist_ex .story2 a{
+	background-image:url('../img/nathist_elephant.jpg');
+}
+
+.nathist_ex .story3 a{
+	background-image:url('../img/nathist_color.jpg');
+}
+
+
+
+.zoo_ex .story1 a{
+	background-image:url('../img/zoo_panda.jpg');
+}
+
+.zoo_ex .story2 a{
+	background-image:url('../img/zoo_kidsfarm.jpg');
+}
+
+.zoo_ex .story3 a{
+	background-image:url('../img/zoo_tigers.jpg');
+}
+
+
+
+.renwick_story1 a{
+	background-image:url('../img/renwick_wonder.jpg');
+}
+
+
+.renwick_ex{
+	margin:auto;
+	display:block;
+
+}
+
+.renwick_ex .renwick_story1{
+	float:none;
+	margin:auto;
+	margin-top:10px;
+	width:100%;
+	max-height:none;
+}
+
+
+
+
+.institution_ex .story1 a{
+	background-image:url('../img/insti_wallpaper.jpg');
+}
+
+.institution_ex .story2 a{
+	background-image:url('../img/isnti_welcome.jpg');
+}
+
+.institution_ex .story3 a{
+	background-image:url('../img/insti_treasure.jpg');
+}
+
+
+.loc_exoverlay{
+    background-color: rgba(46, 89, 97, 0.7);
+    width:100%;
+    height:100%;
+
+
+    	-ms-transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+    transition:all 0.2s;
+}
+
+.loc_exoverlay:hover{
+	    background-color: rgba(46, 89, 97, 0.9);
+	
+
+
+		-ms-transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+    transition:all 0.2s;
+
+}
+
+.loc_exoverlay .story h3,.story h4, .story p{
+	color:#fff;
+}
+
+
+
+
+.viewmore, .viewmore:visited{
+	margin:auto;
+	margin-top:20px;
+	margin-bottom:30px;
+	border: 1px solid rgba(46, 89, 97, 0.90);
+	text-align:center;
+	width:220px;
+	padding: 10px 0px;
+	cursor: pointer;
+	font-weight:300;
+	color:#000;
+
+	-ms-transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+    transition:all 0.2s;
+}
+
+.viewmore:hover{
+	background-color:rgba(46, 89, 97, 0.90);
+	color:#fff;
+
+	-ms-transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+    transition:all 0.2s;
+}
+
+
+
+
+
+
+
+
+/* MEDIA QEURY WHEN BIG */
+/* MEDIA QEURY WHEN BIG */
+/* MEDIA QEURY WHEN BIG */
+
+@media only screen and (min-width: 720px) {
+
+	#myMenu{
+		display:none;
+
+
+	}
+
+	#menuBtn{
+		display:none;
+		
+	}
+
+	#myMenu a{
+		display:none;
+		
+	}
+
+	#myMenu li{
+		display:none;
+		
+	}
+
+
+	
+
+}
+
+
+
+
+
+
+/* MEDIA QEURY WHEN SMALL */
+/* MEDIA QEURY WHEN SMALL */
+/* MEDIA QEURY WHEN SMALL */
+@media only screen and (max-width: 1100px) {
+
+
+#aboutus img{
+	float:none;
+	display:block;
+	margin:auto;
+
+}
+
+.aboutus_p{
+	float:none;
+	margin-left:200px;
+	width:500px;
+	display:block;
+	margin:auto;
+	margin-bottom:30px;
+
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 720px) {
+
+	#nav{
+		display:none;
+	}
+
+	#menuBtn{
+		position:absolute;
+		right: 0;
+		height:35px;
+		margin:25px 30px 10px 10px;
+		padding-left:10px;
+		border-left: 1px solid #ccc;
+	}
+
+
+
+	.slider_text{
+		top:5%;
+	}
+
+	
+	.unslider h1{
+		font-size: 24px;
+		line-height:26px;
+	}
+
+	.unslider h4{
+		font-size: 20px;
+		line-height:22px;
+	}
+
+
+#wrapper { height: 60px; background: #222; position: relative; }
+#menuBtn { position: absolute; right: 0; }
+#myMenu { display: none; }
+#myMenu ul { width: 100%; padding: 0; margin: 0; position: absolute; top: 60px; left: 0; }
+#myMenu li { text-align: center; height: 40px; line-height: 40px; background: #ddd; width: 100%; margin: 0; padding: 0; list-style: none; }
+
+
+.aboutus_p{
+	float:none;
+	margin-left:200px;
+	width:300px;
+	display:block;
+	margin:auto;
+	width:100%;
+		margin-bottom:30px;
+
+}
+
+
+#aboutus img{
+	height:250px;
+	margin-top:30px;
+}
+
+
+.maparea, iframe{
+	height:400px;
+}
+
+
+  #marker-list{
+  	height:300px;
+  	z-index:10000
+  }
+
+
+
+.loc_sidebar{
+	float:none;
+	border:none;
+	margin:auto;
+	border-bottom: 1px solid #ccc;
+	padding-bottom:10px;
+	max-width:300px;
+
+}
+
+
+.loc_stuff{
+	padding:30px;
+	height:auto;
+	width:auto;
+	max-width:650px;
+	font-size:20px;
+	margin:auto;
+
+}
+
+
+
+.footer_links{
+	width:300px;
+	display:block;
+	padding-right:5px;
+
+
+}
+
+.two{
+	padding-right:5px;
+	
+}
+
+.footer_all{
+	margin:auto;
+	width:auto;
+	padding-right:5px;
+}
+
+
+
+.front_list{
+	margin:auto;
+	display:block;
+
+}
+
+.front_list .story {
+	float:none;
+	margin:auto;
+	margin-top:10px;
+	width:100%;
+	max-height:none;
+}
+
+
+
+a:hover{
+    color:#3097AB;
+
+    -ms-transition:all 0.2s;
+    -webkit-transition:all 0.2s;
+    transition:all 0.2s;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
